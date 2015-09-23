@@ -283,6 +283,7 @@ add_test(plugins/smtp ${GO_EXECUTABLE} test ${LDFLAGS} ${BENCHMARK_FLAG} ${COVER
 add_test(plugins/statsd ${GO_EXECUTABLE} test ${LDFLAGS} ${BENCHMARK_FLAG} ${COVERAGE_FLAG} github.com/mozilla-services/heka/plugins/statsd)
 add_test(plugins/tcp ${GO_EXECUTABLE} test ${LDFLAGS} ${BENCHMARK_FLAG} ${COVERAGE_FLAG} github.com/mozilla-services/heka/plugins/tcp)
 add_test(plugins/udp ${GO_EXECUTABLE} test ${LDFLAGS} ${BENCHMARK_FLAG} ${COVERAGE_FLAG} github.com/mozilla-services/heka/plugins/udp)
+add_test(plugins/winevt ${GO_EXECUTABLE} test ${LDFLAGS} ${BENCHMARK_FLAG} ${COVERAGE_FLAG} github.com/mozilla-services/heka/plugins/winevt)
 add_test(logstreamer ${GO_EXECUTABLE} test ${LDFLAGS} ${BENCHMARK_FLAG} ${COVERAGE_FLAG} github.com/mozilla-services/heka/logstreamer)
 add_test(client ${GO_EXECUTABLE} test ${LDFLAGS} ${BENCHMARK_FLAG} ${COVERAGE_FLAG} github.com/mozilla-services/heka/client)
 if(INCLUDE_SANDBOX)
